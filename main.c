@@ -8,11 +8,14 @@ const int MAX_COLORPAIR_NAME_CHARS = 16;
 int numberOfMinorColors = sizeof(MinorColorNames) / sizeof(MinorColorNames[0]);
 
 int main() {
-    testNumberToPair(4, WHITE, BROWN);
-    testNumberToPair(5, WHITE, SLATE);
+     testNumberToPair(4, WHITE, BROWN);
+     testNumberToPair(5, WHITE, SLATE);
 
-    testPairToNumber(BLACK, ORANGE, 12);
-    testPairToNumber(VIOLET, SLATE, 25);
+     testPairToNumber(BLACK, ORANGE, 12);
+     testPairToNumber(VIOLET, SLATE, 25);
+   
+     ColorPairManual();
+     
 
     return 0;
 }
